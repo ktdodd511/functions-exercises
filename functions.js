@@ -59,7 +59,12 @@ console.log(result);
 // 6)
 
 function isXEvenlyDivisibleByY(x, y) {
-
+  if (x % y === 0); {
+    return true;
+  } else {
+    return false;
+   }
+  }
 }
 
 var result = isXEvenlyDivisibleByY(99, 3);
